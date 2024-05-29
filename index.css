@@ -1,0 +1,244 @@
+/*estilo al header o menu */
+/* Estilos para el header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Estilos para la navegación */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de las listas */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 1.2em;
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilo para la navegación en pantallas pequeñas */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+/* ahora estilo al contenido principal el main*/
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 800px; /* Ancho máximo del contenido principal */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Añade un espacio alrededor del contenido */
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 30px; /* Espacio entre las secciones */
+}
+
+section h2 {
+    font-size: 1.5em; /* Tamaño del título de la sección */
+    color: #333; /* Color del título */
+}
+
+section article {
+    background-color: #f9f9f9; /* Color de fondo del artículo */
+    padding: 20px; /* Espacio interno del artículo */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+section article h3 {
+    color: #555; /* Color del subtítulo */
+}
+
+section article p {
+    color: #777; /* Color del texto del artículo */
+    line-height: 1.5; /* Altura de línea del texto */
+}
+
+/* ahora al aside color y todo y al h2 y a los p */
+
+/* Estilos para el aside */
+aside {
+    background-color: #f5f5f5; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+aside h2 {
+    color: #333; /* Color del título */
+    font-size: 1.2em; /* Tamaño del título */
+    margin-top: 0; /* Elimina el margen superior predeterminado */
+}
+
+aside p {
+    color: #555; /* Color del texto */
+    line-height: 1.5; /* Altura de línea del texto */
+}
+
+/* ahora a al footer*/
+
+/* Estilos para el footer */
+footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+footer p {
+    margin: 5px 0; /* Margen entre párrafos */
+}
+
+footer a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* ahora los estilo a la tablas*/
+
+/* Estilos para la tabla */
+table {
+    width: 100%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para las celdas del encabezado */
+th {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para las celdas del cuerpo */
+td {
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #ccc; /* Borde inferior */
+}
+
+/* Estilos alternativos para las filas */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo alternativo */
+}
+
+/*ahora los estilo del formulario*/
+
+/* Estilos para el formulario */
+form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde alrededor del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para los grupos de elementos del formulario */
+form div {
+    margin-bottom: 15px; /* Espacio entre grupos de elementos */
+}
+
+/* Estilos para las etiquetas de los campos */
+form label {
+    display: block; /* Muestra las etiquetas en una línea separada */
+    margin-bottom: 5px; /* Espacio inferior */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para los campos de entrada y textarea */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+/* Estilos para el botón de enviar */
+form input[type="submit"] {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/* Estilos para el botón de enviar al pasar el ratón */
+form input[type="submit"]:hover {
+    background-color: #555; /* Color de fondo al pasar el ratón */
+}
+
+/*ahora los estilos de las imagenes*/
+
+/* Estilos para las imágenes */
+img {
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+    margin: 0 auto 20px; /* Centra la imagen horizontalmente y añade espacio en la parte inferior */
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al ancho del contenedor */
+    height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para imágenes responsivas */
+.responsive-img {
+    width: 50%; /* Ancho completo */
+    height: auto; /* Altura ajustable */
+}
+
+/* Estilos para imágenes con título */
+img[title] {
+    position: relative; /* Permite posicionar el título con respecto a la imagen */
+}
+
+img[title]:hover::after {
+    content: attr(title); /* Muestra el título como un pseudo-elemento */
+    position: absolute; /* Posiciona el título encima de la imagen */
+    bottom: 0; /* Alinea el título en la parte inferior de la imagen */
+    left: 0; /* Alinea el título a la izquierda */
+    width: 100%; /* Ancho completo */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    color: #fff; /* Color del texto */
+    padding: 5px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente */
+    text-align: center; /* Alineación centrada */
+}
+
