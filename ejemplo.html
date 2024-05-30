@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplos de JavaScript en el Front-End</title>
+  <link rel="stylesheet" href="ejemplo.css">
+</head>
+<body>
+
+  <!-- Manipulación del DOM -->
+  <h2>Manipulación del DOM</h2>
+  <div id="content"></div>
+  <button onclick="manipularDOM()">Manipular DOM</button>
+
+  <!-- Validación de Formularios -->
+  <h2>Validación de Formularios</h2>
+  <form id="myForm">
+    <input type="text" id="username" placeholder="Nombre de usuario" required>
+    <input type="submit" value="Enviar">
+  </form>
+
+  <!-- Animaciones CSS -->
+  <h2>Animaciones CSS</h2>
+  <div id="box" class="fade">Soy un cuadro que se desvanece!</div>
+  <button onclick="toggleFade()">Toggle Fade</button>
+
+  <!-- AJAX -->
+  <h2>AJAX</h2>
+  <button id="loadData">Cargar Datos</button>
+  <div id="data"></div>
+
+  <!-- Almacenamiento Local -->
+  <h2>Almacenamiento Local</h2>
+  <button onclick="storeData()">Almacenar Datos</button>
+  <button onclick="loadData()">Cargar Datos</button>
+
+  <!-- Reproducción de Multimedia -->
+  <h2>Reproducción de Multimedia</h2>
+  <video id="video" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <br>
+  <button onclick="playVideo()">Reproducir</button>
+  <button onclick="pauseVideo()">Pausar</button>
+
+  <!-- Geolocalización -->
+  <h2>Geolocalización</h2>
+  <button onclick="getLocation()">Obtener Ubicación</button>
+  <div id="location"></div>
+
+  <!-- JSON -->
+  <h2>Manipulación de JSON</h2>
+  <button onclick="manipulateJSON()">Manipular JSON</button>
+
+  <!-- Debugging -->
+  <h2>Debugging</h2>
+  <button onclick="debuggingExample()">Ejemplo de Debugging</button>
+
+  <script src="ejemplo.js"></script>
+</body>
+</html>
